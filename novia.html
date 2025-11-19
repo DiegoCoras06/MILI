@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️Perdón</title>
+
+    <style>
+        .body{
+            background-color: rgb(219, 78, 172);
+            text-align: center;
+        }
+        .body_title {
+            color: rgb(255, 255, 255);
+        }
+        .body_title1 {
+            color: rgb(53, 219, 202);
+           
+        }
+        .body_title2 {
+            color: rgb(214, 205, 33);
+           
+        }
+        .body_img{
+            width:80%;
+            border-radius: 50%;
+        }
+    
+
+    </style>
+</head>
+<body class="body">
+    <h1 class ="body_title">...¿ME PERDONAS?... 💜❤️</h1>
+    <h1 class ="body_title1">AÑORO TU COMPAÑIA  💜❤️</h1>
+    
+    <img src="nigato.jpg" 
+    alt="Foto de mi" class="body_img"/>
+
+    <button id="yes"> si 😃</button>
+    <button id="no"> No 😭 </button>
+  
+
+    <script>
+        const vutonSi = document.getElementById("yes");
+        const vutonNo = document.getElementById("no");
+        
+
+    const SomosNovios = () => {
+        alert('Me gustaría retomar la comunicación si tú lo permites...' +
+        'Cuando quieras, podemos volver a hablar.'+
+        '...No quiero perder la conexión tan bonita que teníamos....');
+        alert('Te pido disculpas si mis sentimientos se expresaron en un mal momento');
+        alert('Lo siento :')
+    }
+
+    const EvitarqueserompaMitodo = () => {
+        vutonNo.style.position = 'absolute';
+        vutonNo.style.top = (Math.random()* window.innerHeight) + 'px';
+        vutonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+
+    }
+    vutonSi.addEventListener('click', SomosNovios);
+    vutonNo.addEventListener('mouseover', EvitarqueserompaMitodo);
+
+
+    </script>
+    <h1 class ="body_title2">.....MILAGROS ..... 💜</h1>
+    <h1 class ="body_title2">De: Asistonto II </h1>
+    
+    <audio controls autoplay>
+
+        <source src="Primera Cita.mp3" >
+        
+
+    </audio>
+
+
+</body>
+</html
